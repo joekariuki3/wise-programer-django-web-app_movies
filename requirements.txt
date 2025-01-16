@@ -6,9 +6,11 @@ chardet==3.0.4
 charset-normalizer==3.4.0
 Django==4.2.16
 idna==3.10
+pkg_resources==0.0.0
+python-dotenv==1.0.1
 pytz==2017.3
 requests==2.32.3
 six==1.11.0
 sqlparse==0.5.1
-typing-extensions==4.12.2
+typing_extensions==4.12.2
 urllib3==2.2.3
