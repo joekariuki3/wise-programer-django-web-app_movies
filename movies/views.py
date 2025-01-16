@@ -6,10 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-print(
-    f"AIRTABLE_MOVIESTABLE_BASE_ID ====> {os.environ.get('AIRTABLE_MOVIESTABLE_BASE_ID')}")
-print(f"AIRTABLE_API_KEY ====> {os.environ.get('AIRTABLE_API_KEY')}")
-
 AT = Airtable(os.environ.get('AIRTABLE_MOVIESTABLE_BASE_ID'),
               'Movies',
               api_key=os.environ.get('AIRTABLE_API_KEY'))
